@@ -1,0 +1,137 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito+Sans:400,400i,700,700i,900&display=swap');
+
+
+body {
+
+    display: flex;
+    color: black;
+    height: 100%;
+    width: 50%;
+    margin: auto;
+    padding: 8px;
+    background: rgb(106, 110, 108);
+    border-radius: 10px;
+}
+
+body, input, button, textarea {
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+
+.credenziali
+{
+    width: 100%;
+    padding-bottom: 20px;
+    text-align: center;
+}
+ .credenziali {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+h1 {
+    color: black;
+    font-weight: 900;
+    font-size: 30px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+
+
+form {
+    width: 85%;
+    margin-top: 10px;
+}
+
+.login-input 
+{
+    font-size: 15px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-bottom: 25px;
+    width: 100%;
+}
+
+h1.title {
+    color: black;
+    margin: 0px auto 25px;
+    font-size: 25px;
+    font-weight: 300;
+    text-align: center;
+}
+
+input[type=text], input[type=password] {
+    background: #f4ede5;
+    border-radius: 4px;
+}
+
+input[type=submit] {
+    background:black;
+    border-radius: 4px;
+    padding: 8px;
+    color:white;
+    font-weight: 700;
+    cursor: pointer;
+    text-align: center;
+    font-size: 14px;
+}
+
+input[type=submit]:disabled{
+    background: #34363a;
+} 
+
+
+input {
+    width: 100%;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+.Nomi {
+    display: flex;
+    flex-direction: row;
+    flex-grow: 1;
+    justify-content: space-between;
+    margin: 0;
+}
+
+.Nomi div {
+    margin: 0 10px;
+}
+
+form div {
+    margin: 5px 10px
+}
+
+
+form span {
+    opacity: 0;
+    font-size: 11px;
+}
+
+form div, .Nomi div {
+    text-align: right;
+}
+
+form div *{
+    text-align: left;
+}
+
+.errorj span {
+    opacity: 1;
+    font-size: 11px;
+    color: #fdfdfd;
+}
+
+.errorj input
+{
+    border-color: #fa1c2c;
+}
+
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
